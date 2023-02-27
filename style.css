@@ -219,3 +219,35 @@
         top: -10px;
     }
 }
+
+.ex-13-button .ex-13-bottom-white{
+    animation: bottom13 3s linear infinite;
+}
+
+
+@keyframes bottom13 {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    30% {
+        bottom: -10px;
+        right: 75%;
+    }
+    45% {
+        bottom: 60px;
+        right: 75%;
+    }
+    75% {
+        bottom: 60px;
+        right: -20%;
+    }
+    90% {
+        bottom: -10px;
+        right: -20%;
+    }
+    100% {
+        bottom: -10px;
+        right: 20%;
+    }
+}
